@@ -1,12 +1,16 @@
-const list = [1, 1, 2, 5, 7, 9, 11, 13, 18, 23, 29, 340];
-
+/**
+ * Sums values in array recursively
+ * @param {Array} arr Array of numbers
+ * @return {number} Sum of the numbers
+ */
 function sum(arr) {
   if (arr.length === 0) {
     return 0;
-  } else {
-    let first = arr.pop();
-    return first + sum(arr);
   }
+  let first = arr.pop();
+  return first + sum(arr);
 }
 
-console.log(sum(list));
+const list = [1, 1, 2, 5, 7, 9, 11, 13, 18, 23, 29, 340];
+
+console.log(sum(list)); //459
