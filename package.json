@@ -1,0 +1,29 @@
+{
+  "name": "grokking_algorithms JS edition by Adeyemi Babalola",
+  "version": "1.0.0",
+  "description": "For learning algorithms from the book \"Grokking Algorithms\"",
+  "main": "selectionSort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint 'src/**.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boasbabs/grokking_algorithms.git"
+  },
+  "author": "Adeyemi Simeon Babalola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Boasbabs/grokking_algorithms/issues"
+  },
+  "homepage": "https://github.com/Boasbabs/grokking_algorithms#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "^17.1.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb"
+    ]
+  }
+}
